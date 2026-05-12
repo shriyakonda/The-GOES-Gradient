@@ -17,7 +17,6 @@
     Focused on the Atlantic hurricane basin (10-45°N, 100-15°W) during the 2020 season.
   </p>
   </header>
-
   <main>
     <div id="controls">
       <div class="control-group">
@@ -35,20 +34,19 @@
         <label><input type="checkbox" id="show-tracks" checked> Show storm tracks</label>
         <!-- <button id="show-tracks">Toggle Tracks</button> -->
       </div>
+      <div class="control-group">
+        <button id="play-btn">&#9654; Play Season</button>
+      </div>
     </div>
-
     <div id="chart-container">
       <svg id="map"></svg>
       <!-- <canvas id="map"></canvas> -->
       <div id="tooltip" class="tooltip" style="opacity:0"></div>
     </div>
-
     <div id="legend"></div>
   </main>
-
   <section id="writeup">
   </section>
-
   <script src="https://d3js.org/d3.v7.min.js"></script>
   <script src="https://unpkg.com/topojson-client@3"></script>
   <script src="viz.js"></script>
